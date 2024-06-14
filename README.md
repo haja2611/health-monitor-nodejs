@@ -15,7 +15,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository to your local machine:
     ```sh
-    git clone https://github.com/your-username/health-monitor-node.git
+    https://github.com/haja2611/health-monitor-nodejs.git
     ```
 
 2. Navigate to the project directory:
