@@ -1,6 +1,6 @@
 
 
-# Health Monitor Node
+# Health Monitor NodeJS
 
 This project is a Node.js-based health monitoring system. It allows you to add patients, store their exercise data, and perform various operations using JWT authentication.
 
@@ -20,7 +20,7 @@ Before you begin, ensure you have met the following requirements:
 
 2. Navigate to the project directory:
     ```sh
-    cd health-monitor-node
+    cd health-monitor-nodejs
     ```
 
 3. Install the required npm packages:
