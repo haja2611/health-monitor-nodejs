@@ -1,6 +1,4 @@
-Here's a more comprehensive and detailed README file for your GitHub project:
 
----
 
 # Health Monitor Node
 
@@ -89,6 +87,3 @@ Ensure you have the following environment variables set in your `.env` file or y
 
 
 
----
-
-Feel free to customize this README as per your project's specific details and requirements.
