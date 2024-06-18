@@ -10,12 +10,13 @@ const {
   Exercise,
   Data,
   PatientNotes,
+  ExerciseData,
 } = require("./models/dataModels");
 
 const insertData = async (data) => {
   try {
-    const patientId = 5; // Assuming you know the patient ID
-    const exerciseType = "push ups"; // Replace with actual logic to determine exercise type
+    const patientId = 16; // Assuming you know the patient ID
+    const exerciseType = "yoga"; // Replace with actual logic to determine exercise type
 
     // Find or create exercise type
     let exercise = await Exercise.findOne({ where: { Name: exerciseType } });
@@ -59,7 +60,7 @@ const insertData = async (data) => {
       }
 
       // Insert into Data table
-      await Data.create({
+      await ExerciseData.create({
         patient_id: patientId,
         hash_key,
         exercise_id: exerciseId,
